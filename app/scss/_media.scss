@@ -211,6 +211,7 @@
         &__item--measurements{
             margin-left: 100px;
         }
+       
     }
     .gallery{
         &__buttons{
@@ -271,6 +272,7 @@
     .works-path{
         &__items{
             display: flex;
+            flex-direction: column;
         }
         &__item{
             width: 100%;
@@ -408,6 +410,10 @@
             font-size: 16px;
             line-height: 27px;
         }
+        &__items{
+            flex-direction: column;
+            
+        }
     }
     .gallery{
         &__items{
@@ -515,6 +521,10 @@
     .works-path{
         &__item-title{
             margin-right: 0;
+        }
+        &__items{
+            flex-direction: column;
+            
         }
     }
     .partners{
